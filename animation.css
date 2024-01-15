@@ -1,0 +1,31 @@
+.animation-container {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 20px auto;
+  animation: complexAnimation 2s linear infinite;
+}
+
+@keyframes complexAnimation {
+  0% {
+    transform: scale(1) rotate(0deg);
+    background-color: #ffcc00;
+  }
+  25% {
+    transform: scale(1.2) rotate(90deg);
+    background-color: #ff6666;
+  }
+  50% {
+    transform: scale(1) rotate(180deg);
+    background-color: #66cc66;
+  }
+  75% {
+    transform: scale(1.2) rotate(270deg);
+    background-color: #6666ff;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    background-color: #ffcc00;
+  }
+}
