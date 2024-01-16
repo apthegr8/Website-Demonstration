@@ -12,7 +12,7 @@ Demonstrating proficiency in HTML,CSS and JS
 
 ## About
 
-Provide a brief introduction to your project. What is it about? What problem does it solve?
+This is a demonstration of HTML,CSS and JS proficiency and also doubles as a portfolio for potential recruiters.
 
 ## Key Features
 
