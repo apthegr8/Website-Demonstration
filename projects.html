@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="animation.css"> <!-- Include animation-specific styles -->
-  <title>My Projects Gallery</title>
+  <title>My Projects</title>
 </head>
 <body>
   <header>
@@ -15,49 +14,29 @@
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="animation.html">Animation</a></li>
-        <li><a href="projects.html">Projects</a></li> <!-- Add this line for projects.html -->
+        <li class="active"><a href="projects.html">Projects</a></li> <!-- Set "active" class for the current page -->
       </ul>
     </nav>
   </header>
 
   <div class="container">
-    <!-- Include the content from index.html -->
-    <h1>Welcome to My Interactive Website</h1>
-    <p>Enter your name below, and this will give you some cool information.</p>
+    <h1>My Projects</h1>
 
-    <form id="userForm">
-      <label for="username">Enter your name:</label>
-      <input type="text" id="username" name="username" required />
-      <button type="submit">Submit</button>
-    </form>
+    <!-- Placeholder projects for demonstration purposes -->
+    <div class="project">
+      <h2>Project 1</h2>
+      <img src="images/project1.jpg" alt="Project 1 Image">
+      <p>Description of Project 1.</p>
+    </div>
 
-    <div id="output"></div>
+    <div class="project">
+      <h2>Project 2</h2>
+      <img src="images/project2.jpg" alt="Project 2 Image">
+      <p>Description of Project 2.</p>
+    </div>
 
-    <!-- Include the content from about.html -->
-    <h1>About Us</h1>
-    <p>Welcome to my interactive website!</p>
+    <!-- Add more project entries as needed -->
 
-    <h2>Mission</h2>
-    <p>To provide an engaging and user-friendly platform that showcases the capabilities of HTML, CSS, and JavaScript.</p>
-
-    <h2>Key Features</h2>
-    <p>Dynamic content updates with JavaScript</p>
-    <p>User-friendly forms for interactive experiences</p>
-    <p>Simple navigation for seamless browsing</p>
-
-    <h2>Animation</h2>
-    <p>Experience a captivating animation on the Animation page. Click <a href="animation.html">here</a> to check it out!</p>
-
-    <h2>Contact Us</h2>
-    <p>Have questions or suggestions? Feel free to <a href="contact.html">contact me</a>.</p>
-  </div>
-
-  <!-- Include the content from animation.html -->
-  <div class="container">
-    <h1>Animation</h1>
-    <p>Explore the mesmerizing animation below:</p>
-
-    <div class="animation-container"></div>
   </div>
 
   <script src="script.js"></script> <!-- Include script.js for functionality -->
